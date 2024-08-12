@@ -1,15 +1,17 @@
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export default function Header() {
     return(
         <header>
-            <link to="/home">
+            <Link to="/home">
                 <p>Home</p>
-            </link>
-            <link to="/produto"> 
+            </Link>
+            <Link to="/produto"> 
                 <p>Produto</p>
-                </link>
-            <link to="/ofertas">
+                </Link>
+            <Link to="/ofertas">
                 <p>Oferta</p>
-                </link>
+                </Link>
         </header>
     );
 }

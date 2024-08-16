@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export default function Home() {
     return (
         <>
-           <Carrosel
+           <Carousel
            infiniteLoop
            useKeyboardArrows
            autoPlay
@@ -13,17 +13,17 @@ export default function Home() {
            showThumbs={false}
            >
         <div>
-            <img src="https://al.agenciasebrae.com.br/wp-content/uploads/sites/3/2022/08/Banner_Sympla_Start_Games_Alagoas_p3197_thumb_resized.jpg"/>
+            <img src="https://www.mandatory.gg/wp-content/uploads/mandatory-valorant-version-consoles-xbox-playstation.jpg"></img>
         </div>
 
         <div>
-            <img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/1631/posts/32590/image/YouTube%20Banner%20Maker%20with%20Background%20Image%20of%20Tokyo%20copy.jpg"/>
+            <img src="https://imageio.forbes.com/specials-images/imageserve/60671861be1d5990e3464ead/MLB-The-Show-21/960x0.jpg?format=jpg&width=960"></img>
         </div>
 
         <div>
-            <img src="https://wallpapers.com/images/hd/youtube-banner-gaming-ddn9ga2d1plhiw89.jpg"/>
+            <img src="https://i0.wp.com/news.xbox.com/pt-br/wp-content/uploads/sites/8/2020/09/XGP_EAPlay_HERO.jpg?resize=1200%2C675&ssl=1"></img>
         </div>
-        </Carrosel>
+        </Carousel>
        
         </>
     )

@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function ListarProdutos({ListarProdutos}){
+export default function ListarProdutos({ListarProdutos}) {
     return(
         <div>
             {ListarProdutos.map((produto) =>
@@ -12,7 +12,7 @@ export default function ListarProdutos({ListarProdutos}){
                 <p>{produto.imagem}</p>
             <img src= {produto.imagem}/>
         </div>
-            )}
+ )}
         </div>
-    );
+    )
 }

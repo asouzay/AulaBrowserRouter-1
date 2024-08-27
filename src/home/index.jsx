@@ -1,5 +1,7 @@
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import   {React, useState} from 'react';
 
-import React, { useState } from 'react'; 
 export default function Home() {
     const [produtos, setProdutos] = useState([
         {
@@ -39,12 +41,12 @@ export default function Home() {
         },
 
         {
-            nome: "Rise Eterna War",
-            colecao: ["Rise Eterna Bundle", "Rise Eterna War"],
+            nome: "Creatures of Ava",
+            colecao: ["Creatures of Ava", "Creatures of Ava II"],
             preco: "R$ 26,90",
             quantidade: 5,
             otimizado: "Xbox Game pass",
-              imagem: "https://store-images.s-microsoft.com/image/apps.63518.14426363586373691.3643f872-bea6-47f8-a952-59f4cbd7caec.579b1389-5a5c-4a5c-be91-5d177b3da083?w=280",
+              imagem: "https://store-images.s-microsoft.com/image/apps.61939.14400608729854013.f3e97c2f-202d-48ee-b6f7-8667ef1177d0.468789fb-05d8-4f5f-a03c-e465f259932c?q=90&w=177&h=265",
          }
         
 ])
@@ -61,7 +63,7 @@ export default function Home() {
            >
     
         <div>
-            <img src="https://www.xbox.com/pt-br/games/store/atlas-fallen-reign-of-sand/9MVN3C4CPDT5"></img>
+            <img src="https://store-images.s-microsoft.com/image/apps.33754.13856038441672716.325fdc4d-5bd6-4022-a9fa-b38cc4bd1996.9a6466fc-093e-4302-9ea3-6f31420714c4?q=90&w=177&h=265"></img>
         </div>
 
         <div>
@@ -82,7 +84,7 @@ export default function Home() {
         </Carousel>
 
         <div>
-            <ListarProdutos ListarProdutos={produtos}/>
+            <setProdutos ListarProdutos={produtos}/>
         </div>
 
 

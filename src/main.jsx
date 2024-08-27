@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
+import Home from "./home";
 import Produto from "./Produto";
 import Oferta from "./Oferta";
 

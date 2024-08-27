@@ -153,19 +153,11 @@ export default function produtos(){
 
         },
     ]);
-};
+
 
 return(
     <div>
         <ListarProdutos ListarProdutos={produtos}/>
-    </div>,
-<div className="image-container">
-    {produtos.map((produto, index) =>(
-        <img
-        key={index}
-        src={produto.imagem}
-        alt={produto.nome}
-    />
-))}
-</div>
-)
+    </div>
+
+)}

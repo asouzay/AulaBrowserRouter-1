@@ -1,6 +1,5 @@
 
-import { useState } from 'react';
-
+import React, { useState } from 'react'; 
 export default function Home() {
     const [produtos, setProdutos] = useState([
         {
@@ -51,7 +50,7 @@ export default function Home() {
 ])
     return (
         <>
-           <Header/>
+           
            <Carousel
            infiniteLoop
            useKeyboardArrows
@@ -86,15 +85,6 @@ export default function Home() {
             <ListarProdutos ListarProdutos={produtos}/>
         </div>
 
-        <div className="image-container">
-            {produtos.map((produto, index) => (
-                <img 
-                key={index}
-                src={produto.imagem}
-                alt={produto.nome}
-            />
-        ))}
-        </div>
 
      </>
     )

@@ -1,9 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from '/Home'
-import Produto from './Produto'
-import Oferta from './src/Oferta'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Produto from "./Produto";
+import Oferta from "./Oferta";
+
 import './globals.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -96,19 +96,9 @@ export default function Oferta(){
     return(
         <div>
             <ListarProdutos ListarProdutos={produtos}/>
-        </div>,
+        </div>
 
-    <div className="image-contair">
-        {produtos.map((produto, index) => (
-            <img
-            key={index}
-            src={produto.imagem}
-            alt={produto.nome}
-            />
-   
-        ))}
-
-    </div>
+    
     )
 }
 
